@@ -13,12 +13,12 @@
 
 
 // constants won't change. They're used here to set pin numbers:
-const int gledPin= 4;  // the number of the pushbutton pin
-const int yledPin= 5;  // the number of the pushbutton pin
+const int gledPin= 4;  // the number of the green LED pin
+const int yledPin= 5;  // the number of the yellow LED pin
 const int switchPin = 7;    // the number of the pin on which switch is connected
 
 // variables will change:
-int switchState = 0;  // variable for reading the pushbutton status
+int switchState = 0;  // variable for reading the switch status
 
 void setup() {
   // initialize the LED pins as an output:
