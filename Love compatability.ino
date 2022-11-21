@@ -58,7 +58,7 @@ if ((pin1val > 700) && (pin1val < 800) && (pin2val > 700) && (pin2val < 800)){
    digitalWrite(bLed, LOW);
    digitalWrite(yLed, LOW);
  }
- else if((pin1val > 500 || pin2val > 500) && (pin1val <200 || pin2val < 200)){
+ else if((pin1val < 500 || pin2val < 500) && (pin1val > 200 || pin2val > 200)){
    Serial.println("Infatuation");
    digitalWrite(oLed, LOW);
    digitalWrite(yLed, HIGH); // if falls in the specific range Infatuation is printed out and the yellow led glow
